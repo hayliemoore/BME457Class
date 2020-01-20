@@ -1,5 +1,11 @@
 # calculator.py
 
+a = input ("enter first number: ")
+b = input ("enter second number: ")
+x = int(a) 
+ 
+
+
 def add (x, y):
   z = x + y
   print(" {} + {} = {} ".format(x, y, z))
@@ -20,17 +26,19 @@ def divide (x, y):
 x = input ("enter a letter: ")
 print("yout entered {}".format(x))
 if x == "a":
-  z = add(47, 7)
+  z = add(int(a), int(b))
   print (z)
 if x == "b":
-    z = subtract(47, 7)
+    z = subtract(int(a), int(b))
     print (z)
 if x == "c":
-    z = multiply(47, 7)
+    z = multiply(int(a), int(b))
     print (z)
 if x == "d":
-    z = divide(47, 7)
+    z = divide(int(a), int(b))
     print (z)
+    
+    
 elif x == "s": 
   a = 20
   b = -3
