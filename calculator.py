@@ -31,13 +31,13 @@ if sym == "a":
   z = add(x, y)
   print (z)  
 elif sym == "b":
-    z = subtract(int(a), int(b))
+    z = subtract(x, y)
     print (z)
 elif sym == "c":
-    z = multiply(int(a), int(b))
+    z = multiply(x, y)
     print (z)
 elif sym == "d":
-    z = divide(int(a), int(b))
+    z = divide(x, y)
     print (z)
 else:
     print("the {} command is not recognized.".format(x))   
