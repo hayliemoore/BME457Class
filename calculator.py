@@ -3,7 +3,7 @@
 a = input ("enter first number: ")
 b = input ("enter second number: ")
 x = int(a) 
- 
+y = int(b)
 
 
 def add (x, y):
@@ -24,10 +24,10 @@ def divide (x, y):
     return z
   
 x = input ("enter a letter: ")
-print("yout entered {}".format(x))
+print("you entered {}".format(x))
 if x == "a":
   z = add(int(a), int(b))
-  print (z)
+  print (z)  
 if x == "b":
     z = subtract(int(a), int(b))
     print (z)
@@ -37,14 +37,3 @@ if x == "c":
 if x == "d":
     z = divide(int(a), int(b))
     print (z)
-    
-    
-elif x == "s": 
-  a = 20
-  b = -3
-  c = a - b
-  print(" {} - {} = {}  ".format (a, b, c))
-else:
-  print("The {} comman is not recognized." .format(x))
-  
-  print("Done")
